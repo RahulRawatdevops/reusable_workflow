@@ -8,5 +8,5 @@ on:
 
 jobs:
   build-and-test:
-    uses: RahulRawatdevops/reusable_workflow/.github/workflows/resuable-workflow.yml@main
+    uses: RahulRawatdevops/reusable_workflow/.github/workflows/resuable-workflow.yml@main 
     
