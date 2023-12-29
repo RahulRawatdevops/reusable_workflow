@@ -1,0 +1,12 @@
+name: Main Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build-and-test:
+    uses: RahulRawatdevops/reusable_workflow/.github/workflows/resuable-workflow.yml@main
+    
